@@ -4,6 +4,8 @@ Ignitebase is a Couchbase Inspired Database & InMemory Grid Platform Powered by 
 ## Why?
 We wanted to use NPM Modules and Javascript / ECMAScript Code on a InMemory grid to Create a new Generation of Databases that do not get used with clients they are Standalone Applications. MemcacheD and NodeJS was to slow as it got to much Serialization Overhead. But ECMAScript and JavaScript are still the prefered Language. The Concept Behind Ignitebase how ever allows to use any GraalVM Supported Language to Interop with the Server.
 
+It also adds Security Features as we do not need to expose our database or its API's to the Public. Without using the Overhead of a Secure VPN That allows fast traffic exchange with less overhead.
+
 On The Long run Our Goal is to Replace Kubernetes ETCD with Ignitebase to Bundle even Kubernetes API's and Services Directly into Ignitebase as a Simple module.
 
 ## How?
